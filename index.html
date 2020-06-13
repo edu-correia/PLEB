@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    
+    <title>PLEB | Home</title>
+
+    <style>
+        
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto";
+        }
+
+        nav{
+            position: absolute;
+            background-color: #b41212;
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 100px;
+            color: white;
+        }
+
+        nav img{
+            width: 30%;
+            height: auto;
+        }
+
+        .ancora{
+            text-decoration: none;
+            width: 200px;
+            height: 50px;
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            box-shadow: 10px 10px 5px rgb(143, 13, 13);
+            font-size: 26px;
+            font-weight: bold;
+            font-family: "Ubuntu", sans-serif;
+        }
+
+        .slogan{
+            font-size: 30px;
+            font-family: "Ubuntu", sans-serif;
+            color: white;
+        }
+
+        div{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50%;
+            width: 80%;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div h1{
+            text-align: center;
+            font-size: 50px;
+            color: #b41212;
+        }
+
+        .icon{
+            margin-bottom: 50%;
+            color: #b41212;
+            width: auto;
+            height: 100px;
+            margin-left: 90px;
+        }
+
+        .itens{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        p{
+            font-size: 24px;
+        }
+
+        footer{
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        footer span{
+            margin-left: 10%;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        footer ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        footer ul li{
+            margin-left: 30px;
+            font-size: 25px;
+        }
+
+        .dir{
+            bottom: 0;
+            width: 100%;
+            height: 20px;
+            background-color: #111;
+            color: white;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 600px){
+            nav img{
+                width: 65%;
+            }
+
+            .slogan{
+                text-align: center;
+            }
+
+            .titulo{
+                padding-top: 400px;
+            }
+
+            .itens{
+                flex-direction: column;
+                margin-left: -40px;
+            }
+
+            footer{
+                height: 300px;
+                text-align: center;
+                margin-left: 0;
+            }
+
+            footer ul{
+                padding-left: 0;
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    
+    </style>
+</head>
+<body>
+    <body>
+        <nav>
+            <img src="./Logo_PLEB.png" alt="Logo">
+            <p class="slogan">PLEB, o partido do povo.</p>
+            <a href="#title" class="ancora">Saiba mais</a>
+    
+        </nav>
+    
+        <div class="titulo">
+            <h1>Partido Liberal-Esquerdista Brasileiro</h1>
+            <a name="title"></a>
+    
+            <p>
+                O PLEB declara-se concreto nos seus objetivos que por si só visam a construção de uma sociedade verdadeiramente livre, justa e solidária, a fim de garantir a população acesso de qualidade aos serviços públicos essenciais e fundamentais, como saúde, educação, segurança, liberdade, habitação e saneamento básico e o avanço nas áreas da tecnologia, ciências, meio ambiente e inclusão social, racial e sexual.
+            </p>
+    
+            <div class="itens">
+            
+                <li>
+                    <a href="./Pages/emprego.html">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" class="icon svg-inline--fa fa-briefcase fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"></path></svg>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="./Pages/saude.html">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="first-aid" class="icon svg-inline--fa fa-first-aid fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M0 80v352c0 26.5 21.5 48 48 48h48V32H48C21.5 32 0 53.5 0 80zm128 400h320V32H128v448zm64-248c0-4.4 3.6-8 8-8h56v-56c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v56h56c4.4 0 8 3.6 8 8v48c0 4.4-3.6 8-8 8h-56v56c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8v-56h-56c-4.4 0-8-3.6-8-8v-48zM528 32h-48v448h48c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="./Pages/natureza.html">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="leaf" class="icon svg-inline--fa fa-leaf fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M546.2 9.7c-5.6-12.5-21.6-13-28.3-1.2C486.9 62.4 431.4 96 368 96h-80C182 96 96 182 96 288c0 7 .8 13.7 1.5 20.5C161.3 262.8 253.4 224 384 224c8.8 0 16 7.2 16 16s-7.2 16-16 16C132.6 256 26 410.1 2.4 468c-6.6 16.3 1.2 34.9 17.5 41.6 16.4 6.8 35-1.1 41.8-17.3 1.5-3.6 20.9-47.9 71.9-90.6 32.4 43.9 94 85.8 174.9 77.2C465.5 467.5 576 326.7 576 154.3c0-50.2-10.8-102.2-29.8-144.6z"></path></svg>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="./Pages/security.html">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shield-alt" class="icon svg-inline--fa fa-shield-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM256.1 446.3l-.1-381 175.9 73.3c-3.3 151.4-82.1 261.1-175.8 307.7z"></path></svg>
+                    </a>
+                </li>
+        
+                <li>
+                    <a href="./Pages/education.html">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-graduate" class="icon svg-inline--fa fa-user-graduate fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M319.4 320.6L224 416l-95.4-95.4C57.1 323.7 0 382.2 0 454.4v9.6c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-9.6c0-72.2-57.1-130.7-128.6-133.8zM13.6 79.8l6.4 1.5v58.4c-7 4.2-12 11.5-12 20.3 0 8.4 4.6 15.4 11.1 19.7L3.5 242c-1.7 6.9 2.1 14 7.6 14h41.8c5.5 0 9.3-7.1 7.6-14l-15.6-62.3C51.4 175.4 56 168.4 56 160c0-8.8-5-16.1-12-20.3V87.1l66 15.9c-8.6 17.2-14 36.4-14 57 0 70.7 57.3 128 128 128s128-57.3 128-128c0-20.6-5.3-39.8-14-57l96.3-23.2c18.2-4.4 18.2-27.1 0-31.5l-190.4-46c-13-3.1-26.7-3.1-39.7 0L13.6 48.2c-18.1 4.4-18.1 27.2 0 31.6z"></path></svg>
+                    </a>
+                </li>
+    
+    
+                
+                
+            </div>
+        </div>
+    
+        <footer>
+            <span>Equipe:</span>
+            <ul>
+                <li>Eduardo Correia - 2.1D</li>
+                <li>Laura Oppermann - 2.1D</li>
+                <li>Rafael Bandini - 2.1D</li>
+                <li>Yasmim Souza - 2.1D</li>
+                <li>Luna Festa - 2.1D</li>
+                <li>Manuella Zutin - 2.1D</li>
+            </ul>
+        </footer>
+    
+        <section class="dir">
+            &copy; Direitos reservados a PLEB
+        </section>
+    
+    </body>
+    
+</body>
+</html>

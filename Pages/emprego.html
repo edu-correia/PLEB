@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <title>PLEB | Empregos</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav{
+            position: fixed;
+            width: 100%;
+            height: 150px;
+            background-color: #b41212;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+        }
+
+        .content{
+            padding-top: 270px;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 25px;
+            font-family: "Roboto";
+        }
+
+        .content li{
+            font-size: 30px;
+            font-weight: 600;
+            list-style: square;
+        }
+
+        .back{
+            position: fixed;
+            left: 10px;
+            top: 10px;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .icon{
+            color: white;
+            width: auto;
+            height: 30px;
+        }
+
+        span{
+            color: white;
+            font-size: 30px;
+        }
+
+        .image{
+            width: 350px;
+            height: 350px;
+            object-fit: cover;
+            float: right;
+            margin-left: 35px;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back">
+        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" class="icon svg-inline--fa fa-arrow-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path></svg>
+        <span>Voltar</span>
+    </a>
+
+    <nav>
+        Empregos
+    </nav>
+
+    <div class="content">
+        <li>Como será os empregos?</li>
+        <img class="image" src="../Images/emprego.jpg" alt="">
+        Maior incentivo para criação de empresas nacionais, logo, aumentando o número de empregos e o empreendedorismo brasileiro.
+        Projetos de manutenção de empregos voltados a pessoas de baixa renda, procurando assim manter uma situação econômica estável com garantia de salário para os habitantes do país como um todo. O salário deverá ser digno e atender o necessário para o sustento das famílias.
+    </div>
+</body>
+</html>
